@@ -1,0 +1,28 @@
+@charset "utf-8";
+/*CSS Document*/
+
+header, nav, section, article, footer{
+	text-align: center;
+}
+
+/*nav*/
+nav a{
+	color:#ccc;
+	text-decoation:none;/*將底線去除*/
+	padding:20px;
+}
+
+
+nav a:hover{
+	color:red;
+}
+
+/* article */
+article{
+	display: inline-block;
+	/*設定寬度否則會以內容元素中最寬的元素寬度做為預設*/
+	width:180px;
+	/*設定邊寬作為檢視*/
+	border:solid lpx #ddd;
+	margin:20px;
+}
